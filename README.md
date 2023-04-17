@@ -16,11 +16,17 @@ To write a program to find the LU Decomposition of a matrix.
 ## Program:
 (i) To find the L and U matrix
 ```
-/*
-Program to find the L and U matrix.
-Developed by: 
-RegisterNumber: 
-*/
+'''Program to find L and U matrix using LU decomposition.
+Developed by: M.PRAKASH
+RegisterNumber: 212222100035
+'''
+import numpy as np
+from scipy.linalg import lu
+A=np.array(eval(input()))
+arr=np.array(A)
+p,l,u=lu(arr)
+print(l)
+print(u)
 ```
 (ii) To find the LU Decomposition of a matrix
 ```
